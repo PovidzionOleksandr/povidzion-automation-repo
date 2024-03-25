@@ -1,0 +1,14 @@
+{
+  "name": "povidzion-automation-repo",
+  "version": "1.0.0",
+  "description": "Repo for Automated Testing Global MP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr Povidzion",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  }
+}

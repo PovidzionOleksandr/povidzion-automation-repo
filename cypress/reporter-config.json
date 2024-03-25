@@ -1,0 +1,6 @@
+{
+  "reporterEnabled": "spec, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "coverage/povidzion-automation-repo-e2e/junit/[hash].xml"
+  }
+}
