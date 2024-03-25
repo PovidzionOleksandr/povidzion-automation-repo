@@ -10,5 +10,8 @@ Repo for Automated Testing Global MP
 1. Run following command in the root of repository
   npx cypress open
 2. Select any spec file
+OR
+1. Run following command to run ALL tests
+  npx cypress runtest
 # Running GIT CI workflow
  TO BE DONE
