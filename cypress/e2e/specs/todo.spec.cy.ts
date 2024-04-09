@@ -1,6 +1,4 @@
-import
-// This spec file contains a variety of sample tests
-// for a todo list app that are designed to demonstrate
+
 
 describe('example to-do app', () => {
   beforeEach(() => {
