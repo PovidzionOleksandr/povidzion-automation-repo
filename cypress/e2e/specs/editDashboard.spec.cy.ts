@@ -1,6 +1,6 @@
 import {DashboardPage} from '../pageObjects/dashboardPage';
 
-describe('example to-do app', () => {
+describe('Edit dashboard', () => {
   const dashboardPage = new DashboardPage()
   const dashboardName = 'Test name'
 
