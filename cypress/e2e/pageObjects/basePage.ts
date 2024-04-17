@@ -15,6 +15,6 @@ export class BasePage {
   }
 
   clickAddNewDashboardButton (){
-    this.getAddNewDashboardButton().first().click()
+    this.getAddNewDashboardButton().click()
   }
 }
