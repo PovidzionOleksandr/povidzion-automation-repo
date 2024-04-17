@@ -18,6 +18,6 @@ module.exports = defineConfig({
   video: false,
   scrollBehavior: 'center',
   e2e: {
-    baseUrl: 'https://reportportal.epam.com/ui',
+    baseUrl: 'https://demo.reportportal.io/ui/#default_personal/dashboard',
   },
 });

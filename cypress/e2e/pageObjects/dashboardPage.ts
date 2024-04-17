@@ -1,4 +1,4 @@
-import { BasePage } from '../pageObjects/BasePage';
+import { BasePage } from './basePage';
 
 export class DashboardPage extends BasePage {
 //locators
@@ -10,7 +10,7 @@ export class DashboardPage extends BasePage {
   getDashboardDescriptionFromList = (description:string) => cy.get('div[class*="dashboardTable"] div').contains(description)
 //interactions
   deleteDashboard(name: string){
-    cy.visit('https://demo.reportportal.io/ui/#default_personal/dashboard')
+    cy.visit('/')
     this.getDashboardFromList(name).click()
     this.getDeleteDashboardButton().click()
     this.getModalConfirmDeleteButton().click()

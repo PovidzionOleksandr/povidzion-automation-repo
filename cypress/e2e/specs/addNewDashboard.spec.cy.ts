@@ -1,6 +1,6 @@
 import {DashboardPage} from '../pageObjects/dashboardPage';
 
-describe('example to-do app', () => {
+describe('Add new dashboard', () => {
   const dashboardPage = new DashboardPage()
 
   before(() => {

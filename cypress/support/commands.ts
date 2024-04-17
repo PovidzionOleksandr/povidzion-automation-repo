@@ -1,6 +1,6 @@
 
  Cypress.Commands.add('login', (email, password) => {
-   cy.visit('https://demo.reportportal.io/ui/#default_personal/dashboard')
+   cy.visit('/')
    cy.get('div[class*="login-button"] button').click()
  })
 
