@@ -4,7 +4,7 @@ export class DashboardPage extends BasePage {
 //locators
   getDashboardFromList = (name:string) => cy.get('div[class*="dashboardTable"] a').contains(name)
   getDeleteDashboardButton = () => cy.get('span').contains('Delete')
-  getModalConfirmDeleteButton = () => cy.get('div[class*="modal-window"] button').last()
+  getModalConfirmDeleteButton = () => cy.get('div[class*="modal-window"] button').contains('Delete')
   getEditDashboardButton = () => cy.get('button').contains('Edit')
   getConfirmUpdateDashboardButton = () => cy.get('div[class*=modalLayout] button').contains('Update')
   getDashboardDescriptionFromList = (description:string) => cy.get('div[class*="dashboardTable"] div').contains(description)
